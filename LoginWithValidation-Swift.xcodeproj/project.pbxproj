@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E172562F1D3989790093849E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E172562E1D3989790093849E /* AppDelegate.swift */; };
+		E17256311D3989790093849E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17256301D3989790093849E /* ViewController.swift */; };
+		E17256341D3989790093849E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17256321D3989790093849E /* Main.storyboard */; };
+		E17256361D3989790093849E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17256351D3989790093849E /* Assets.xcassets */; };
+		E17256391D3989790093849E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17256371D3989790093849E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E172562B1D3989790093849E /* LoginWithValidation-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LoginWithValidation-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E172562E1D3989790093849E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E17256301D3989790093849E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E17256331D3989790093849E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E17256351D3989790093849E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E17256381D3989790093849E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E172563A1D3989790093849E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E17256281D3989790093849E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E17256221D3989790093849E = {
+			isa = PBXGroup;
+			children = (
+				E172562D1D3989790093849E /* LoginWithValidation-Swift */,
+				E172562C1D3989790093849E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E172562C1D3989790093849E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E172562B1D3989790093849E /* LoginWithValidation-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E172562D1D3989790093849E /* LoginWithValidation-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				E172562E1D3989790093849E /* AppDelegate.swift */,
+				E17256301D3989790093849E /* ViewController.swift */,
+				E17256321D3989790093849E /* Main.storyboard */,
+				E17256351D3989790093849E /* Assets.xcassets */,
+				E17256371D3989790093849E /* LaunchScreen.storyboard */,
+				E172563A1D3989790093849E /* Info.plist */,
+			);
+			name = "LoginWithValidation-Swift";
+			path = BlueLine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E172562A1D3989790093849E /* LoginWithValidation-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E172563D1D3989790093849E /* Build configuration list for PBXNativeTarget "LoginWithValidation-Swift" */;
+			buildPhases = (
+				E17256271D3989790093849E /* Sources */,
+				E17256281D3989790093849E /* Frameworks */,
+				E17256291D3989790093849E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LoginWithValidation-Swift";
+			productName = BlueLine;
+			productReference = E172562B1D3989790093849E /* LoginWithValidation-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E17256231D3989790093849E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dose Media, LLC";
+				TargetAttributes = {
+					E172562A1D3989790093849E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = E17256261D3989790093849E /* Build configuration list for PBXProject "LoginWithValidation-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E17256221D3989790093849E;
+			productRefGroup = E172562C1D3989790093849E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E172562A1D3989790093849E /* LoginWithValidation-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E17256291D3989790093849E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17256391D3989790093849E /* LaunchScreen.storyboard in Resources */,
+				E17256361D3989790093849E /* Assets.xcassets in Resources */,
+				E17256341D3989790093849E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E17256271D3989790093849E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17256311D3989790093849E /* ViewController.swift in Sources */,
+				E172562F1D3989790093849E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E17256321D3989790093849E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E17256331D3989790093849E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E17256371D3989790093849E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E17256381D3989790093849E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E172563B1D3989790093849E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E172563C1D3989790093849E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E172563E1D3989790093849E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlueLine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dose.BlueLine;
+				PRODUCT_NAME = "LoginWithValidation-Swift";
+			};
+			name = Debug;
+		};
+		E172563F1D3989790093849E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlueLine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dose.BlueLine;
+				PRODUCT_NAME = "LoginWithValidation-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E17256261D3989790093849E /* Build configuration list for PBXProject "LoginWithValidation-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E172563B1D3989790093849E /* Debug */,
+				E172563C1D3989790093849E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E172563D1D3989790093849E /* Build configuration list for PBXNativeTarget "LoginWithValidation-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E172563E1D3989790093849E /* Debug */,
+				E172563F1D3989790093849E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E17256231D3989790093849E /* Project object */;
+}
